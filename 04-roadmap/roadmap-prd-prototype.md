@@ -36,3 +36,96 @@ B3	Shift Handoff Wizard	4	3	Major Project	Targets the +6.8-minute handoff gap an
 - **What I cut, and the “no” I’m protecting the scope from:** B7 Contextual AI ETA Display, B8 Fleet Analytics Manager View
 - **Prototype/roadmap screenshot link (paste into your deliverables):** https://claude.ai/chat/6ac34017-7410-42c1-be57-749fd78a438a
 https://app.notion.com/p/feature-roadmap-module4-c1ff557174dd82069c32812f83afbf5b?source=copy_link
+
+**roadmap**
+
+**wireframe**
+626f6c742d63632d6167656e74Here are low-fidelity wireframes of the three screens, based on the PRD and the prototype as it stands.
+
+**Screen 1: Today's checks**
+
+```
++--------------------------------------------------------------------------+
+| [Truck] RouteLogic Velocity · North Ridge Depot              Jordan E.   |
++--------------------------------------------------------------------------+
+| North Ridge Depot                                  +--------------------+ |
+| Today's checks                                      | Time so far today  | |
+| Tuesday 3 November 2026                             | 4.2 min            | |
+| 6 checks due today: 0 done · 1 in progress · 5 not started              | |
+|                                                     | [=====----]        | |
+|                                                     | Target: 7 min      | |
+|                                                     +--------------------+ |
+| +----------------------------------------------------------------------+ |
+| | Checks are now pre-filled                     [Switch to classic form] | |
+| +----------------------------------------------------------------------+ |
+| +----------------------------------------------------------------------+ |
+| | Van 14        Marcus Hale         [In progress]        [ Resume -> ] | |
+| | Route R-204                                                          | |
+| |----------------------------------------------------------------------| |
+| | Van 15        Priya Nair          [Not started]       [ Start check ->]| |
+| | Route R-211                                                          | |
+| |----------------------------------------------------------------------| |
+| | Van 16        Tomasz Kowal        [Done]                Took 3:12      | |
+| |----------------------------------------------------------------------| |
+| | Van 18        Lee Okafor          [Defect reported]     Took 4:01      | |
+| +----------------------------------------------------------------------+ |
++--------------------------------------------------------------------------+
+```
+
+**Screen 2: Compliance checklist**
+
+```
++--------------------------------------------------------------------------+
+| < Back to today's checks                       Switch to classic form    |
+|                                                                          |
+| +----------------------------------------------------------------------+ |
+| | Compliance check                                  Time on check 2:14 | |
+| | Van 14                                                               | |
+| | Marcus Hale · Route R-204 · Departs 06:10                            | |
+| +----------------------------------------------------------------------+ |
+| [Few values available notice - only if many fields are missing]          |
+|                                                                          |
+| +------------------------------------------+  +------------------------+ |
+| | NEEDS YOUR ANSWER                        |  | PROGRESS               | |
+| | Pre-trip inspection   (Pass) (Fail)      |  | 2 of 3 answers given   | |
+| | Defects found         (Yes) (No)         |  | [====----]             | |
+| |   Describe the defect: [__________]      |  |                        | |
+| | Driver hours confirmed (Yes) (No)        |  | STILL NEEDED           | |
+| +------------------------------------------+  | - Driver hours        | |
+| +------------------------------------------+  | - Confirm odometer    | |
+| | NEEDS A QUICK LOOK                       |  |                        | |
+| | Odometer   118442   [Last updated        |  | Fields complete 5 of 10| |
+| |            yesterday]  [edit]            |  |                        | |
+| |  [ ] Confirm this value is still correct |  | [ Submit check -> ]    | |
+| | Trailer ID  No value on file             |  |  (disabled until done) | |
+| |  [________________ Enter this value]     |  +------------------------+ |
+| +------------------------------------------+                             |
+| +------------------------------------------+                             |
+| | PRE-FILLED FOR YOU                 v     |                             |
+| |  (collapsed by default)                  |                             |
+| +------------------------------------------+                             |
++--------------------------------------------------------------------------+
+```
+
+**Screen 3: Check submitted**
+
+```
++--------------------------------------------------------------------------+
+| (check)  Check submitted for Van 14                                      |
+|          10 of 10 fields complete                                       |
+|                                                                          |
+| EDITED FIELDS                                                            |
+| +----------------------------------------------------------------------+ |
+| | Odometer          Was 118442          Now 118510                     | |
+| +----------------------------------------------------------------------+ |
+|                                                                          |
+| +-------------------------------+  +-----------------------------------+ |
+| | Time for this check           |  | Today's total                     | |
+| | 6:48                          |  | 11.4 min of 7 min target          | |
+| +-------------------------------+  +-----------------------------------+ |
+|                                                                          |
+| < Back to today's checks                 [ Next check: Van 15 -> ]        |
++--------------------------------------------------------------------------+
+```
+
+Two notes: the wireframes show the intended layout, not the final visual style, and the "Switch to classic form" links are still placeholders in the prototype. I can also turn these into a clickable HTML wireframe if you want to review them in a browser.

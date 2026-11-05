@@ -37,7 +37,7 @@ B3	Shift Handoff Wizard	4	3	Major Project	Targets the +6.8-minute handoff gap an
 - **Prototype/roadmap screenshot link (paste into your deliverables):** https://claude.ai/chat/6ac34017-7410-42c1-be57-749fd78a438a
 https://app.notion.com/p/feature-roadmap-module4-c1ff557174dd82069c32812f83afbf5b?source=copy_link
 
-**roadmap**
+**ROADMAP**
 ### NOW, Pilot (4 weeks, 3 accounts)
 
 - **B1 One-Click Compliance Checklist**, scoped to pre-filling compliance fields the system already holds, with no new rules engine. This is the most direct test of the primary metric, and the narrow scope keeps it within reach for 2 engineers.
@@ -62,7 +62,7 @@ https://app.notion.com/p/feature-roadmap-module4-c1ff557174dd82069c32812f83afbf5
 
 *Capacity note: effort scores assumed a larger squad. With 2 engineers, NOW (B1 + B9) is achievable only if B1 stays scoped to pre-fill, and NEXT (B3 + B5 + B6) is tight; B6 is the first item to slip.*
 
-**wireframe**
+**WIREFRAME**
 626f6c742d63632d6167656e74Here are low-fidelity wireframes of the three screens, based on the PRD and the prototype as it stands.
 
 **Screen 1: Today's checks**

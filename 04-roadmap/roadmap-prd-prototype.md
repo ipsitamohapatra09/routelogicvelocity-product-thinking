@@ -38,6 +38,29 @@ B3	Shift Handoff Wizard	4	3	Major Project	Targets the +6.8-minute handoff gap an
 https://app.notion.com/p/feature-roadmap-module4-c1ff557174dd82069c32812f83afbf5b?source=copy_link
 
 **roadmap**
+### NOW, Pilot (4 weeks, 3 accounts)
+
+- **B1 One-Click Compliance Checklist**, scoped to pre-filling compliance fields the system already holds, with no new rules engine. This is the most direct test of the primary metric, and the narrow scope keeps it within reach for 2 engineers.
+- **B9 Compliance Audit Trail Export**, built alongside B1 as guardrail insurance: if compliance forms change, managers can still produce complete records for audits.
+
+### NEXT, GA Release (weeks 5-8)
+
+- **B3 Shift Handoff Wizard**, the second-largest gap (+6.8 minutes) and the step where today’s WhatsApp and text workarounds take over; it extends B1’s gains to the supporting metric.
+- **B5 Step Progress Indicator**, a one-point add that gives coordinators visibility across the newly improved compliance and handoff steps.
+- **B6 Driver Alert Notifications**, compliance flags for drivers like Dana, the secondary persona. Route-change alerts should wait until the server-side sync delay (BUG-2044) is fixed.
+
+### LATER, backlog
+
+- **B2 Smart Daily Report Auto-Fill**, revisit once B1 shows pre-filled compliance data is accurate enough to feed reports without AI generation risk.
+- **B10 In-App Coordinator Training**, revisit after the workflow is simplified, when there is less to train.
+- **B4 Mobile-First Coordinator Dashboard**, revisit once B1 and B3 are proven, as a mobile wrapper for flows that already work rather than a parallel build.
+
+### ✂ Cut List
+
+- **B7 Contextual AI ETA Display**, no link to the persona’s friction or the primary metric.
+- **B8 Fleet Analytics Manager View**, serves the most satisfied group and comes from Sales, not the frontline.
+
+*Capacity note: effort scores assumed a larger squad. With 2 engineers, NOW (B1 + B9) is achievable only if B1 stays scoped to pre-fill, and NEXT (B3 + B5 + B6) is tight; B6 is the first item to slip.*
 
 **wireframe**
 626f6c742d63632d6167656e74Here are low-fidelity wireframes of the three screens, based on the PRD and the prototype as it stands.
